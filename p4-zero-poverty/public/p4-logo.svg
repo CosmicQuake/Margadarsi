@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="p4Pillar1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="p4Pillar2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#2DD4BF" />
+    </linearGradient>
+    <linearGradient id="p4Pillar3" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#FB923C" />
+    </linearGradient>
+    <linearGradient id="p4Pillar4" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+    <linearGradient id="sunGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Shield / Hex Ring -->
+  <rect x="8" y="8" width="144" height="144" rx="36" fill="#0A2540" />
+  
+  <!-- Subtle AP Geographic Contour Lines / Tech Grid -->
+  <path d="M 28 50 C 45 40, 60 70, 80 55 C 100 40, 120 70, 132 60" stroke="#1E3A8A" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6"/>
+  <path d="M 28 80 C 50 75, 75 95, 100 80 C 120 70, 130 90, 132 85" stroke="#1E3A8A" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6"/>
+  
+  <!-- Rising Golden Sun (Poverty Exit Dawn) -->
+  <circle cx="80" cy="38" r="14" fill="url(#sunGlow)" filter="drop-shadow(0px 0px 8px rgba(245, 158, 11, 0.6))" />
+  
+  <!-- 4 Rising Interlocked Pillars forming Upward Arrow -->
+  <!-- Pillar 1: People (Blue - Foundation) -->
+  <path d="M 38 122 L 38 92 L 52 82 L 52 122 Z" fill="url(#p4Pillar1)" rx="2"/>
+  <!-- Pillar 2: Progress (Teal - Elevation) -->
+  <path d="M 56 122 L 56 74 L 70 64 L 70 122 Z" fill="url(#p4Pillar2)" rx="2"/>
+  <!-- Pillar 3: Partnership (Saffron - Unity & Public-Private) -->
+  <path d="M 74 122 L 74 56 L 88 46 L 88 122 Z" fill="url(#p4Pillar3)" rx="2"/>
+  <!-- Pillar 4: Poverty Exit (Emerald Green - Apex) -->
+  <path d="M 92 122 L 92 42 L 114 26 L 122 36 L 106 122 Z" fill="url(#p4Pillar4)" rx="2"/>
+
+  <!-- Upward Trajectory Chevron / Arrow Head -->
+  <path d="M 64 36 L 80 20 L 96 36 L 86 36 L 80 30 L 74 36 Z" fill="#FBBF24" />
+
+  <!-- Centroid: Family / Community Symbol (Parents & Child silhouette in white) -->
+  <g transform="translate(68, 86) scale(0.65)" fill="#FFFFFF">
+    <!-- Mother / Guardian -->
+    <circle cx="12" cy="10" r="4.5" />
+    <path d="M 5 28 C 5 20, 9 17, 12 17 C 15 17, 19 20, 19 28 Z" />
+    <!-- Father / Mentor -->
+    <circle cx="28" cy="8" r="5" />
+    <path d="M 20 28 C 20 18, 25 15, 28 15 C 31 15, 36 18, 36 28 Z" />
+    <!-- Child (Future of Bangaru Kutumbam) -->
+    <circle cx="20" cy="20" r="3.2" />
+    <path d="M 15 32 C 15 25, 17 24, 20 24 C 23 24, 25 25, 25 32 Z" />
+  </g>
+</svg>
